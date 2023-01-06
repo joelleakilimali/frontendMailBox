@@ -27,7 +27,7 @@ const SentMessage = () => {
 
   const senMail = async () => {
     if (!body.destination || !body.title || !body.content) {
-      alert("all information are required before sending mail ");
+      alert("all information are required before sending email ");
     }
     await axios
       .post("http://localhost:8000/api/emails", body)
