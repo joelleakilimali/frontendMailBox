@@ -23,7 +23,7 @@ const Welcome = () => {
 
         <hr />
         <div className="pt-18">
-          <p className="">Welcome back into your Account</p>
+          <p className="">Welcome back into your Account Dear</p>
           <ul>
             <li> Total Message: {data[0]?.count}</li>
             <li> Unread Message: {data[1]?.unread}</li>
