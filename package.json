@@ -43,5 +43,5 @@
     "postcss": "^8.4.20",
     "tailwindcss": "^3.2.4"
   },
-  "proxy": "http://localhost:8000/api"
+  "proxy": "https://themailbox-api.onrender.com/api"
 }
